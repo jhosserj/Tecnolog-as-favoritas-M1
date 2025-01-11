@@ -1,0 +1,30 @@
+{
+  "name": "pm1-jhosserj",
+  "version": "1.0.0",
+  "description": "proyecto-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhosserj/Tecnologias-favoritas-M1.git"
+  },
+  "keywords": [
+    "P",
+    "I",
+    "M",
+    "1"
+  ],
+  "author": "Jhosserj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhosserj/Tecnologias-favoritas-M1/issues"
+  },
+  "homepage": "https://github.com/jhosserj/Tecnologias-favoritas-M1#readme",
+  "devDependencies": {
+    "jasmine-browser-runner": "^2.5.0",
+    "jasmine-core": "^5.5.0"
+  }
+}

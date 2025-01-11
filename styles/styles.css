@@ -1,0 +1,113 @@
+/* Estilos de la estructura de la pagina*/
+body{
+    background-color: rgb(90, 84, 85);
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+ }
+ 
+ .navegador{
+    display: flex;
+   justify-content: center;
+   align-items: center; /* Alinear verticalmente (opcional) */
+    color: white;
+    text-align: center;
+   /* flex: 1; /* Distribuir espacio equitativamente */
+   /*margin: 0 5px; /* Agregar espacio entre imágenes */
+ }
+ 
+ /*Texto sobre mi*/
+ .titulo{
+    text-align: center;
+ 
+ }
+ /*imagenes y textos de respectivas imagenes*/
+ .card, #hover :hover{
+ 
+    background-color: #a5bdc7c4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+ }
+ .Cards{
+       background-color: #44494979;  
+       display: flex;
+       justify-content: center; /* Centrar horizontalmente */
+       flex: 1; /* Distribuir espacio equitativamente */
+       margin: 0 10px; /* Agregar espacio entre imágenes */
+     
+ }
+ 
+ /*formulario de actividades*/
+ 
+ .form_style {
+    /* Centrar el formulario */
+    margin: 0 auto;
+    width: 50%;  /* Ajustar el ancho según tus preferencias */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;  /* Redondear las esquinas */
+  
+    /* Estilo de texto */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  
+    /* Estilo de títulos */
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    /* Estilo de etiquetas */
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    /* Estilo de inputs */
+    input[type="text"],
+    input[type="email"]{
+    margin-top: auto;
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 30px ;
+      
+    }
+ 
+    input[type="url"]{
+       justify-content: center;
+    }
+  
+    /* Estilo del botón */
+    button {
+       display: flex;
+      background-color: #4CAF50; /* Verde */
+      color: white;
+      margin: 0 auto;
+      justify-content: center;
+      text-align: center;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+ 
+    button :hover{
+ 
+       background-color: black;
+    }
+  }
+ 
+  footer{
+    text-align: center;
+    background-color: rgb(48, 47, 47);
+    color: white;
+ }
+ footer p{
+    font-size: 1.5em;
+ }
